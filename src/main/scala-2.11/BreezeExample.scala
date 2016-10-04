@@ -50,7 +50,7 @@ object BreezeExample extends App {
 
     var result = CSCMatrix.zeros[Double](matrix.rows, matrix.cols)
 
-    val ccc = matrix.active.pairs.map(v => {
+    matrix.active.pairs.foreach(v => {
 
       result(v._1._1, v._1._2) = v._2 + sliceMatrix(matrix, v._1._1, v._1._2).flatten(View.Copy).sum
 
