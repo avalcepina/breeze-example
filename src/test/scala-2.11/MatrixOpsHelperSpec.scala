@@ -14,13 +14,31 @@ class MatrixOpsHelperSpec extends FunSuite {
 
   }
 
+  test("Should find matrix to be valid") {
+
+    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 6.0, 7.0), (4.0, 8.0, 9.0))
+
+    assert(MatrixOpsHelper.validateMatrix(m, 0 to 10))
+
+  }
+
+  test("Should find matrix to be invalid") {
+
+    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 6.0, 7.0), (4.0, 8.0, 9.0))
+
+    assert(MatrixOpsHelper.validateMatrix(m, 3 to 10) == false)
+
+    assert(MatrixOpsHelper.validateMatrix(m, 0 to 7) == false)
+
+  }
+
   test("Should filter values correctly") {
 
-    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 6.0, 7.0), (4.0, 8.0, 3.0))
+    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 6.0, 7.0), (4.0, 8.0, 9.0))
 
-    val expected = CSCMatrix((0.0, 0.0, 0.0), (0.0, 6.0, 7.0), (0.0, 8.0, 0.0))
+    val expected = CSCMatrix((0.0, 0.0, 0.0), (0.0, 6.0, 7.0), (4.0, 8.0, 0.0))
 
-    assert(MatrixOpsHelper.filterMatrix(m, 5.0).equals(expected))
+    assert(MatrixOpsHelper.filterMatrix(m, 3 to 9).equals(expected))
 
   }
 
@@ -28,10 +46,25 @@ class MatrixOpsHelperSpec extends FunSuite {
 
     val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 2.0, 3.0), (1.0, 2.0, 3.0))
 
-    val expected = CSCMatrix((7.0, 14.0, 13.0), (10.0, 20.0, 18.0), (7.0, 14.0, 13.0))
+    val expected = CSCMatrix((1.4, 2.0, 2.6), (1.4285714285714286, 2.0, 2.5714285714285716), (1.4, 2.0, 2.6))
 
     assert(MatrixOpsHelper.matrixAverage(m).equals(expected))
 
   }
+
+//  test("Should calculated better averages correctly") {
+//
+//    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 2.0, 3.0), (1.0, 2.0, 3.0))
+//
+//    val expected = CSCMatrix((1.4, 2.0, 2.6), (1.4285714285714286, 2.0, 2.5714285714285716), (1.4, 2.0, 2.6))
+//
+//    println(m.toDense)
+//    println(MatrixOpsHelper.betterMatrixAverage(m).toDense)
+//
+//
+//    assert(MatrixOpsHelper.betterMatrixAverage(m).equals(expected))
+//
+//  }
+
 
 }

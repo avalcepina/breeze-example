@@ -20,7 +20,7 @@ object BreezeExample extends App {
   //Set one value manually
   m1(0, 1) = 20
 
-  val m2 = MatrixOpsHelper.filterMatrix(m1, 5.0)
+  val m2 = MatrixOpsHelper.filterMatrix(m1, 3 to 9)
 
   //Print filtered matrix
   println(m2)
