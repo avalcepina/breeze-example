@@ -1,10 +1,7 @@
-import breeze.linalg.{CSCMatrix, DenseMatrix}
-import java.io._
-
-import breeze.linalg
+import breeze.linalg.CSCMatrix
 
 /**
-  * Created by avalcepina on 04/10/2016.
+  * Breeze demo app
   */
 object BreezeExample extends App {
 
@@ -13,29 +10,27 @@ object BreezeExample extends App {
   //denseMatrix(0 , 0 ) = 10;
 
   //Read matrix from csv file
-  val denseMatrix= getMatrix("/denseMatrix.csv")
+  val denseMatrix = MatrixOpsHelper.getMatrix("/denseMatrix.csv")
 
-  // println(denseMatrix)
-
-  val m1 = CSCMatrix.create(denseMatrix.rows, denseMatrix.cols,denseMatrix.toArray)
-
-  val m2 = m1.map(filterValue(_, 5.0))
+  val m1 = CSCMatrix.create(denseMatrix.rows, denseMatrix.cols, denseMatrix.toArray)
 
   //Size of active elements
   println(m1.activeSize)
 
   //Set one value manually
-  m1(0,1) = 20
+  m1(0, 1) = 20
 
-  //Size of active elements for filtered table
-  println(m2.activeSize)
+  val m2 = MatrixOpsHelper.filterMatrix(m1, 5.0)
 
   //Print filtered matrix
   println(m2)
 
-  def getMatrix(path : String) = linalg.csvread(new File(getClass.getResource(path).getPath),',')
+  //Size of active elements for filtered table
+  println(m2.activeSize)
 
-  def filterValue(x : Double, thresold : Double) = if (x < thresold) 0.0 else x
+  val m3 = MatrixOpsHelper.matrixAverage(m2)
+
+  println(m3)
 
 
 }
