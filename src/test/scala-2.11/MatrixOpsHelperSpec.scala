@@ -46,25 +46,25 @@ class MatrixOpsHelperSpec extends FunSuite {
 
     val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 2.0, 3.0), (1.0, 2.0, 3.0))
 
-    val expected = CSCMatrix((7.0, 14.0, 13.0), (10.0, 20.0, 18.0), (7.0, 14.0, 13.0))
+    val expected = CSCMatrix((1.4, 2.0, 2.6), (1.4285714285714286, 2.0, 2.5714285714285716), (1.4, 2.0, 2.6))
 
     assert(MatrixOpsHelper.matrixAverage(m).equals(expected))
 
   }
-  //
-  //  test("Should still calculated averages correctly") {
-  //
-  //    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 2.0, 3.0), (1.0, 2.0, 3.0))
-  //
-  //    val rows: (Double, Double, Double) = (7.0, 14.0, 13.0)
-  //    val expected = CSCMatrix(rows, (10.0, 20.0, 18.0), (7.0, 14.0, 13.0))
-  //
-  //    println(expected.toDense.toDenseVector)
-  //    println(expected.toDense);
-  //    println(MatrixOpsHelper.betterMatrixAverage(m).toDense);
-  //
-  //    assert(MatrixOpsHelper.betterMatrixAverage(m).equals(expected))
-  //
-  //  }
+
+//  test("Should calculated better averages correctly") {
+//
+//    val m = CSCMatrix((1.0, 2.0, 3.0), (1.0, 2.0, 3.0), (1.0, 2.0, 3.0))
+//
+//    val expected = CSCMatrix((1.4, 2.0, 2.6), (1.4285714285714286, 2.0, 2.5714285714285716), (1.4, 2.0, 2.6))
+//
+//    println(m.toDense)
+//    println(MatrixOpsHelper.betterMatrixAverage(m).toDense)
+//
+//
+//    assert(MatrixOpsHelper.betterMatrixAverage(m).equals(expected))
+//
+//  }
+
 
 }

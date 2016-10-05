@@ -94,7 +94,7 @@ object MatrixOpsHelper {
   private def sliceMatrix(matrix: CSCMatrix[Double], x: Int, y: Int) = matrix(Math.max(0, x - 1) to Math.min(matrix.rows - 1, x + 1), Math.max(0, y - 1) to Math.min(matrix.cols - 1, y + 1))
 
   private def calculateSum(value: Double, slice: Vector[Double]) = {
-    (value + sum(slice)) ///(1+slice.length)
+    (value + sum(slice))/(1+slice.length)
   }
 
 }
