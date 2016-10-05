@@ -19,5 +19,12 @@ libraryDependencies  ++= Seq(
   "org.scalanlp" %% "breeze-viz" % "0.12"
 )
 
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.0"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
+
 
 resolvers += "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
+
+//resolvers += "Artima Maven Repository" at "http://repo.artima.com/releases"
+//
+//addSbtPlugin("com.artima.supersafe" % "sbtplugin" % "1.1.0")

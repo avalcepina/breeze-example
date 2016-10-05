@@ -1,5 +1,5 @@
 [warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
-[warn]  * org.scala-lang:scala-reflect:(2.11.7, 2.11.8)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.5, 1.0.4)
 [debug] :: resolving dependencies :: default#breeze-example$sources_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f4e6836
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609eea7f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze_2.11;0.12 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.11;0.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2363c87f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b4da6f8
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.11;0.12
 [debug] 	found org.scalanlp#breeze_2.11;0.12 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze_2.11;0.12 [compile->runtime]
@@ -25,24 +25,15 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze_2.11;0.12 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.11;0.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b526353
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f0dd827
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.11;0.12
 [debug] 	found org.scalanlp#breeze-macros_2.11;0.12 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@680ffd13
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
-[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51bfa83a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b228951
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
@@ -50,7 +41,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10824931
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aeaf0ce
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->runtime]
@@ -58,7 +49,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f0035fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c194f7e
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->runtime]
@@ -66,7 +57,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->junit#junit;4.8.2 [compile->default(compile)]
 [info] Resolving junit#junit;4.8.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2de54957
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1441dc95
 [debug] sbt-chain: module revision found in cache: junit#junit;4.8.2
 [debug] 	found junit#junit;4.8.2 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->junit#junit;4.8.2 [compile->runtime]
@@ -74,7 +65,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->junit#junit;4.8.2 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.apache.commons#commons-math3;3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@121b6dad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@306bddfa
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.2
 [debug] 	found org.apache.commons#commons-math3;3.2 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.apache.commons#commons-math3;3.2 [compile->runtime]
@@ -82,7 +73,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.apache.commons#commons-math3;3.2 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42f76951
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2263fba9
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.11;0.7.4
 [debug] 	found org.spire-math#spire_2.11;0.7.4 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->runtime]
@@ -90,7 +81,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a6a9807
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@621f7540
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.11;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.11;0.7.4 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->runtime]
@@ -98,7 +89,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7160b576
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f36091
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
 [debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime]
@@ -106,7 +97,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.0.0 [compile->default(compile)]
 [info] Resolving com.chuusai#shapeless_2.11;2.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@635b20c7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ce09d5f
 [debug] sbt-chain: module revision found in cache: com.chuusai#shapeless_2.11;2.0.0
 [debug] 	found com.chuusai#shapeless_2.11;2.0.0 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.0.0 [compile->runtime]
@@ -114,7 +105,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.0.0 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-natives_2.11;0.12 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-natives_2.11;0.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@560e41fc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1915f092
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-natives_2.11;0.12
 [debug] 	found org.scalanlp#breeze-natives_2.11;0.12 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-natives_2.11;0.12 [compile->runtime]
@@ -122,53 +113,23 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-natives_2.11;0.12 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@465195e1
-[info] Resolving com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@465195e1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.pom(pom.original) (275ms)
-[info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/jnilibs/netlib-native_ref-osx-x86_64.jnilib
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jnilib
-[debug] 	found com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66e254d2
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_ref-java;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#native_ref-java;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16eac9c5
-[info] Resolving com.github.fommil.netlib#native_ref-java;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@16eac9c5
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/native_ref-java/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#native_ref-java;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#native_ref-java;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.pom(pom.original) (270ms)
-[info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
-[debug] 	found com.github.fommil.netlib#native_ref-java;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b3af1e4
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-java;1.1
+[debug] 	found com.github.fommil.netlib#native_ref-java;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_ref-java;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil#jniloader;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil#jniloader;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4db2b067
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@849b91
 [debug] sbt-chain: module revision found in cache: com.github.fommil#jniloader;1.1
 [debug] 	found com.github.fommil#jniloader;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil#jniloader;1.1 [compile->runtime]
@@ -176,335 +137,103 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil#jniloader;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20a0c92e
-[info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@20a0c92e
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.pom(pom.original) (280ms)
-[info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
-[info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/native_ref-xbuilds/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#native_ref-xbuilds;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#native_ref-xbuilds;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-xbuilds;1.1!native_ref-xbuilds.pom(pom.original) (261ms)
-[info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/native_ref-xbuilds/1.1/jars/native_ref-xbuilds.jar
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar
-[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/sos/netlib-native_ref-linux-x86_64.so
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.so
-[debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9b84a04
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@503fd140
-[info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@503fd140
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.pom(pom.original) (239ms)
-[info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/sos/netlib-native_ref-linux-i686.so
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.so
-[debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@790c9a93
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29e0ed1a
-[info] Resolving com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@29e0ed1a
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.pom(pom.original) (289ms)
-[info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/dlls/netlib-native_ref-win-x86_64.dll
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.dll
-[debug] 	found com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e262a3b
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3357315b
-[info] Resolving com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3357315b
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-win-i686;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_ref-win-i686;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.pom(pom.original) (255ms)
-[info] Resolving com.github.fommil.netlib#native_ref;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/dlls/netlib-native_ref-win-i686.dll
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.dll
-[debug] 	found com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@89d6c58
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-win-i686;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f4f79d
-[info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2f4f79d
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.pom(pom.original) (224ms)
-[info] Resolving com.github.fommil.netlib#native_ref-xbuilds;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/sos/netlib-native_ref-linux-armhf.so
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.so
-[debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f7faee9
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79cd4a44
-[info] Resolving com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@79cd4a44
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.pom(pom.original) (238ms)
-[info] Resolving com.github.fommil.netlib#native_system;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/jnilibs/netlib-native_system-osx-x86_64.jnilib
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jnilib
-[debug] 	found com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cc838ce
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_system-java;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#native_system-java;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35b9f93a
-[info] Resolving com.github.fommil.netlib#native_system-java;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@35b9f93a
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/native_system-java/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#native_system-java;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#native_system-java;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.pom(pom.original) (287ms)
-[info] Resolving com.github.fommil.netlib#native_system;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
-[debug] 	found com.github.fommil.netlib#native_system-java;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57751492
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-java;1.1
+[debug] 	found com.github.fommil.netlib#native_system-java;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_system-java;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_system-java;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#native_system-java;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20c1fdbd
-[info] Resolving com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@20c1fdbd
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.pom(pom.original) (247ms)
-[info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
-[info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/native_system-xbuilds/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#native_system-xbuilds;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#native_system-xbuilds;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#native_system-xbuilds;1.1!native_system-xbuilds.pom(pom.original) (246ms)
-[info] Resolving com.github.fommil.netlib#native_system;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/native_system-xbuilds/1.1/jars/native_system-xbuilds.jar
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar
-[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/sos/netlib-native_system-linux-x86_64.so
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.so
-[debug] 	found com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56782fab
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@207a373
-[info] Resolving com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@207a373
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-i686;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_system-linux-i686;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.pom(pom.original) (283ms)
-[info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/sos/netlib-native_system-linux-i686.so
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.so
-[debug] 	found com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23a25191
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-i686;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@558ba7c9
-[info] Resolving com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@558ba7c9
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.pom(pom.original) (277ms)
-[info] Resolving com.github.fommil.netlib#native_system-xbuilds;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/sos/netlib-native_system-linux-armhf.so
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.so
-[debug] 	found com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@147988d4
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a6b893e
-[info] Resolving com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7a6b893e
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.pom(pom.original) (292ms)
-[info] Resolving com.github.fommil.netlib#native_system;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/dlls/netlib-native_system-win-x86_64.dll
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.dll
-[debug] 	found com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@192e332c
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cf3aeaf
-[info] Resolving com.github.fommil.netlib#netlib-native_system-win-i686;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1cf3aeaf
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-win-i686;1.1
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
-[debug] 	jcenter: found md file for com.github.fommil.netlib#netlib-native_system-win-i686;1.1
-[debug] 		=> https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom (1.1)
-[debug] downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
-[debug] 	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.pom(pom.original) (273ms)
-[info] Resolving com.github.fommil.netlib#native_system;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}
-[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1
-[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/dlls/netlib-native_system-win-i686.dll
-[debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.dll
-[debug] 	found com.github.fommil.netlib#netlib-native_system-win-i686;1.1 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d2d457b
+[debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-win-i686;1.1
+[debug] 	found com.github.fommil.netlib#netlib-native_system-win-i686;1.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-viz_2.11;0.12 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-viz_2.11;0.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4acfca1d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53eede74
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-viz_2.11;0.12
 [debug] 	found org.scalanlp#breeze-viz_2.11;0.12 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-viz_2.11;0.12 [compile->runtime]
@@ -512,7 +241,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-viz_2.11;0.12 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->jfree#jcommon;1.0.16 [compile->default(compile)]
 [info] Resolving jfree#jcommon;1.0.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70dd693b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33937677
 [debug] sbt-chain: module revision found in cache: jfree#jcommon;1.0.16
 [debug] 	found jfree#jcommon;1.0.16 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->jfree#jcommon;1.0.16 [compile->runtime]
@@ -520,7 +249,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->jfree#jcommon;1.0.16 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->commons-io#commons-io;1.3.1 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;1.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fdc85d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24430c98
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;1.3.1
 [debug] 	found commons-io#commons-io;1.3.1 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->commons-io#commons-io;1.3.1 [compile->runtime]
@@ -528,7 +257,7 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->commons-io#commons-io;1.3.1 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->commons-logging#commons-logging;1.0.4 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@136af835
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fd22f42
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.0.4
 [debug] 	found commons-logging#commons-logging;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->commons-logging#commons-logging;1.0.4 [compile->runtime]
@@ -536,12 +265,29 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->commons-logging#commons-logging;1.0.4 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->default(compile)]
 [info] Resolving com.lowagie#itext;2.1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4273b49
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39155e77
 [debug] sbt-chain: module revision found in cache: com.lowagie#itext;2.1.5
 [debug] 	found com.lowagie#itext;2.1.5 in sbt-chain
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
+[info] Resolving org.scalactic#scalactic_2.11;3.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56f03075
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.0
+[debug] 	found org.scalactic#scalactic_2.11;3.0.0 in sbt-chain
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35d7b9c9
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [compile]
@@ -557,10 +303,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -681,6 +423,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -693,10 +443,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -817,6 +563,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [test]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [runtime]
@@ -833,10 +587,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -957,6 +707,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -969,10 +727,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -1093,6 +847,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -1105,10 +867,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test->compile]
@@ -1229,6 +987,38 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;3.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36b924e2
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.0
+[debug] 	found org.scalatest#scalatest_2.11;3.0.0 in sbt-chain
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@663849dc
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1704f38b
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -1248,10 +1038,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -1372,6 +1158,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
@@ -1386,10 +1180,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile-internal->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile-internal->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile-internal->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile-internal->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile-internal->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile-internal->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile-internal->compile]
@@ -1510,6 +1300,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile-internal->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [runtime]
@@ -1526,10 +1324,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -1650,6 +1444,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -1662,10 +1464,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -1786,6 +1584,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
@@ -1799,10 +1605,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime-internal->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime-internal->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime-internal->compile]
@@ -1923,6 +1725,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime-internal->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [test]
@@ -1940,10 +1750,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [compile->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->compile]
@@ -2064,6 +1870,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -2076,10 +1890,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [runtime->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [runtime->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile]
@@ -2200,6 +2010,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [runtime->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [runtime->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -2212,10 +2030,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test->compile]
@@ -2336,6 +2150,26 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
@@ -2350,10 +2184,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test-internal->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.12 [test-internal->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->default(compile)]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [test-internal->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test-internal->default(compile)]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [test-internal->compile]
@@ -2474,6 +2304,26 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test-internal->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test-internal->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->com.lowagie#itext;2.1.5 [test-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [test-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#breeze-example$sources_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -2488,6 +2338,14 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default(compile)]}
@@ -2496,15 +2354,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
-[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
-[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}
@@ -2513,14 +2362,6 @@
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
-[debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
 [debug] == resolving dependencies default#breeze-example$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
@@ -2537,8 +2378,6 @@
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze_2.11;0.12!breeze_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.11;0.12!breeze-macros_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-macros_2.11;0.12!breeze-macros_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar(src)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar
 [debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar
@@ -2559,84 +2398,216 @@
 [debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.11;2.0.0!shapeless_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-natives_2.11;0.12!breeze-natives_2.11.jar
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-natives_2.11;0.12!breeze-natives_2.11.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/jars/netlib-native_ref-osx-x86_64.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar(src)
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar (324ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/jars/netlib-native_ref-osx-x86_64.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar(src)
 [debug] 	[NOT REQUIRED] com.github.fommil#jniloader;1.1!jniloader.jar
 [debug] 	[NOT REQUIRED] com.github.fommil#jniloader;1.1!jniloader.jar(src)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/jars/netlib-native_ref-linux-x86_64.jar
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar (537ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/jars/netlib-native_ref-linux-x86_64.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/jars/netlib-native_ref-linux-i686.jar
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar (1013ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/jars/netlib-native_ref-linux-i686.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/jars/netlib-native_ref-win-x86_64.jar
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar (457ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/jars/netlib-native_ref-win-x86_64.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/jars/netlib-native_ref-win-i686.jar
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar (381ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/jars/netlib-native_ref-win-i686.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.jar
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/jars/netlib-native_ref-linux-armhf.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src)
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar (314ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/jars/netlib-native_ref-linux-armhf.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/jars/netlib-native_system-osx-x86_64.jar
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar (326ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/jars/netlib-native_system-osx-x86_64.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar(src)
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/jars/netlib-native_system-linux-x86_64.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src)
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar (314ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/jars/netlib-native_system-linux-x86_64.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.jar
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/jars/netlib-native_system-linux-i686.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar(src)
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar (294ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/jars/netlib-native_system-linux-i686.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.jar
 [debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar(src)
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/jars/netlib-native_system-linux-armhf.jar
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar (311ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/jars/netlib-native_system-linux-armhf.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.jar
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/jars/netlib-native_system-win-x86_64.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src)
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar (393ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/jars/netlib-native_system-win-x86_64.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.jar
+[debug] 		tried /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/jars/netlib-native_system-win-i686.jar
+[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src)
 [debug] 		tried https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
-[debug] 	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar(src)
-[warn] 	[NOT FOUND  ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar (387ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
+[warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar:  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/avalcepina/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/jars/netlib-native_system-win-i686.jar
 [warn] ==== jcenter: tried
 [warn]   https://jcenter.bintray.com/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
+[warn] ==== Sonatype Releases: tried
+[warn]   https://oss.sonatype.org/content/repositories/releases/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.jar
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-viz_2.11;0.12!breeze-viz_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalanlp#breeze-viz_2.11;0.12!breeze-viz_2.11.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.16!jcommon.jar
@@ -2647,12 +2618,20 @@
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar(src)
 [debug] 	[NOT REQUIRED] com.lowagie#itext;2.1.5!itext.jar(src)
 [debug] 	[NOT REQUIRED] com.lowagie#itext;2.1.5!itext.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 10566ms :: artifacts dl 5089ms
+[debug] :: resolution report :: resolve 487ms :: artifacts dl 4261ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -2683,4 +2662,4 @@
 [debug] 	report for default#breeze-example$sources_2.11;1.0 docs produced in /Users/avalcepina/Development/repos/breeze-example/target/resolution-cache/reports/default-breeze-example$sources_2.11-docs.xml
 [debug] 	report for default#breeze-example$sources_2.11;1.0 pom produced in /Users/avalcepina/Development/repos/breeze-example/target/resolution-cache/reports/default-breeze-example$sources_2.11-pom.xml
 [debug] 	report for default#breeze-example$sources_2.11;1.0 scala-tool produced in /Users/avalcepina/Development/repos/breeze-example/target/resolution-cache/reports/default-breeze-example$sources_2.11-scala-tool.xml
-[debug] 	resolve done (10566ms resolve - 5089ms download)
+[debug] 	resolve done (487ms resolve - 4261ms download)

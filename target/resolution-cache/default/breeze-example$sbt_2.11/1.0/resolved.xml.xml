@@ -4,7 +4,7 @@
 		module="breeze-example$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161004103140"
+		publication="20161005083542"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
